@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background: rgb(133, 30, 166);
-    background: linear-gradient(0deg, rgba(133, 30, 166, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: rgb(15, 10, 10);
+    background: linear-gradient(0deg, rgba(15, 10, 10, 1) 0%, rgba(91, 32, 32, 1) 100%);
     overflow-x: hidden;
 }
 
@@ -10,8 +10,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 10px;
-    background-color: #ca63e9;
-    color: black;
+    background: rgb(0, 0, 0);
+    color: white;
     border: none;
     width: 98.5vw;
     font-size: 16px;
@@ -24,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .bottom-text {
@@ -32,6 +31,7 @@ body {
     margin-top: 10px;
     width: 94.5vw;
     text-align: center;
+    color: white;
 }
 
 .buttons-container {
@@ -44,8 +44,8 @@ body {
     margin-right: 1vw;
     height: 8vh;
     width: 8vw;
-    background-color: #b62cc2;
-    color: rgb(0, 0, 0);
+    background-color: #501f1f;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -56,8 +56,9 @@ body {
 }
 
 .button:hover {
-    background-color: #6b1d8d;
+    background-color: #85747481;
 }
+
 
 .vakje1 {
     display: flex;
@@ -106,16 +107,16 @@ body {
 }
 
 .Alicia-image {
-    width: 8vw;
-    height: 16vh;
-    border-radius: 50%;
-    background-color: #922cc2;
+    width: 6%;
+    height: 15vh;
+    border-radius: 10%;
+    background-color: #ffffff;
     margin-right: 2vw;
     object-fit: fill;
 }
 
 .vakje2 {
-    background-color: #b62cc2;
+    background-color: #574e4e;
     height: 6vh;
     width: 11vw;
     margin-right: 30vw;
@@ -137,6 +138,7 @@ body {
     margin-bottom: 25vh;
     border-radius: 5px;
     font-size: 20px;
+    color: #fff;
 }
 
 .galaxy-image {
@@ -171,7 +173,7 @@ body {
 }
 
 .vakje3 {
-    background-color: #b62cc2;
+    background-color: #574e4e;
     height: 6vh;
     width: 12vw;
     margin-right: 30vw;
@@ -183,6 +185,7 @@ body {
     box-shadow: 0px 4px 8px rgb(0, 0, 0);
 }
 
+
 .education {
     background-color: #881aaa00;
     height: 40vh;
@@ -193,6 +196,7 @@ body {
     margin-bottom: 20vh;
     border-radius: 5px;
     font-size: 20px;
+    color: #fff;
 }
 
 .strand-image {
@@ -217,7 +221,7 @@ body {
 }
 
 .vakje4 {
-    background-color: #b62cc2;
+    background-color: #574e4e;
     height: 6vh;
     width: 10vw;
     margin-right: 30vw;
@@ -245,14 +249,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: rgb(71, 25, 25);
+    background-color: #501f1f;
     color: black;
     border: none;
     height: 10vh;
 }
 
 .vakje5 {
-    background-color: #b62cc2;
+    background-color: #501f1f;
     height: 5vh;
     width: 5vw;
     margin-right: 20vw;
@@ -261,10 +265,11 @@ body {
     margin-bottom: -4vh;
     border-radius: 5px;
     font-size: 18px;
+    color: white
 }
 
 .vakje6 {
-    background-color: #b62cc2;
+    background-color: #501f1f;
     height: 5vh;
     width: 17vw;
     margin-right: 20vh;
@@ -272,10 +277,11 @@ body {
     margin-top: 6vh;
     border-radius: 5px;
     font-size: 18px;
+    color: white
 }
 
 .vakje7 {
-    background-color: #b62cc2;
+    background-color: #501f1f;
     height: 5vh;
     width: 5vw;
     margin-right: 20vh;
@@ -283,10 +289,11 @@ body {
     margin-top: -15vh;
     border-radius: 5px;
     font-size: 20px;
+    color: white
 }
 
 .vakje8 {
-    background-color: #b62cc2;
+    background-color: #501f1f;
     height: 5vh;
     width: 9vw;
     margin-right: 20vh;
@@ -294,6 +301,7 @@ body {
     margin-top: -2vh;
     border-radius: 5px;
     font-size: 18px;
+    color: white
 }
 
 .work {
@@ -303,7 +311,7 @@ body {
 }
 
 .work-text h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 32px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -334,9 +342,9 @@ body {
 
 .layer {
     color: white;
-    width: 79%;
+    width: 57%;
     height: 0%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #a715ea);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #5e2121);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -359,7 +367,7 @@ body {
 
 .layer a {
     margin-top: 20px;
-    color: #8315ea;
+    color: #501c1c;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -404,11 +412,11 @@ body {
     justify-content: flex-end;
     /* Zet de justify-content op flex-end om de afbeeldingen rechts uit te lijnen */
     padding: 20px 40px;
-    background-color: #ca63e9;
-    color: black;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border: none;
     height: 10vh;
-
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
 }
 
 .footer img {
